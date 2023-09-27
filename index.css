@@ -11,7 +11,9 @@ input {
     padding: 10px;
     box-sizing: border-box;
     border: 1px solid #30C6B4 ;
+    margin-top: 5px;
     margin-bottom: 4px;
+    border-radius: 20px;
 }
 
 button {
@@ -20,11 +22,29 @@ button {
     padding: 10px 20px;
     border: 1px solid #30C6B4;
     font-weight: bold;
+    border-radius: 20px;
+    margin-top: 1px;    
 }
-
+button:hover {
+    background: white ;
+    color: #30C6B4 ;
+    padding: 10px 20px;
+    border: 1px solid #30C6B4;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-top: 1px;   
+    transition: all;
+    transition-duration: 500ms; 
+}
 #delete-btn {
     background: white;
     color: #30C6B4 ;
+}
+#delete-btn:hover {
+    transition: all;
+    transition-duration: 500ms;
+    background:#30C6B4;
+    color: white;
 }
 
 ul {
@@ -39,6 +59,15 @@ li {
 
 a {
     color: #30C6B4 
+}
+h1{
+    display: inline;
+    cursor: pointer;
+}
+h1:hover{
+    color: #30C6B4;
+    transition: all;
+    transition-duration: 500ms;
 }
 
 
