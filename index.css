@@ -11,7 +11,7 @@ input {
     padding: 10px;
     box-sizing: border-box;
     border: 1px solid #30C6B4 ;
-    margin-top: 5px;
+    margin-top: 0px;
     margin-bottom: 4px;
     border-radius: 20px;
 }
@@ -66,6 +66,9 @@ a {
     width: 99%;
     height: 100%;
     float: left;
+    text-align: center;
+    justify-content: center;
+    margin: 0px;
 }
 #m-heading:hover{
     color: #30C6B4;
